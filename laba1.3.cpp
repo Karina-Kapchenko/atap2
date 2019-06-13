@@ -6,8 +6,8 @@ using namespace std;
 int main()
 {
 
-	int n, t;
-	cin >> n >> t;
+	int n, x;
+	cin >> n >> x;
 	vector<int> a(n);
 	int arr[t];
 	for (int i = 0; i < n; ++i)
@@ -15,13 +15,13 @@ int main()
 		cin >> a[i];
 	}
 	
-	for (int j = 0; j < t; ++j)
+	for (int j = 0; j < x; ++j)
 	{
 		cin >> arr[j];
 	}
 
 
-	for(int b = 0; b < t; b++)
+	for(int b = 0; b < x; b++)
 	{
 		int l = 0, r = n - 1;
 		int res1 = -1;
