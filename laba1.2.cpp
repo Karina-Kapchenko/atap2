@@ -6,17 +6,17 @@ int binary_search(int* array, int arr_size, int element);
 
 int main() {
  
-    /*задати розмір масива*/
+    /*intitialize and input sizes of array*/
     int first_arr_size, second_arr_size;
     cin >> first_arr_size >> second_arr_size;
  
-    /*створення масиву*/
+    /*create arrays*/
     int first_arr[first_arr_size];
     int second_arr[second_arr_size];
  
     bool is_found;
  
-    /*запис масиву*/
+    /*write arrays*/
  
     for (int i = 0; i < first_arr_size; i++)
     {
@@ -28,7 +28,7 @@ int main() {
         cin >> second_arr[i];
     }
     
-    /*перевірка*/
+    /*check*/
  
     for (int i = 0; i < second_arr_size; i++)
     {
